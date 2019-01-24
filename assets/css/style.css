@@ -4,6 +4,12 @@ body {
     font-size: 10px;
     color: #333;
 }
+a {
+    color: #333;
+}
+a:hover {
+    color: #666;
+}
 
 @font-face {
     font-family: 'OpenSans-Regular';
@@ -125,6 +131,12 @@ body {
 .h80 {
     height: 80px;
 }
+.h100 {
+    height: 100px;
+}
+.w-30vw {
+    width: 30vw;
+}
 .w1160 {
     width: 1160px;
 }
@@ -143,6 +155,9 @@ body {
 .w-50 {
     width: 50%;
 }
+.w-45 {
+    width: 45%;
+}
 .w-40 {
     width: 40%;
 }
@@ -151,6 +166,9 @@ body {
 }
 .w-25 {
     width: 25%;
+}
+.w-23 {
+    width: 23%;
 }
 .w-20 {
     width: 20%;
@@ -176,11 +194,17 @@ body {
 .p40-0 {
     padding: 40px 0;
 }
+.p80-0 {
+    padding: 80px 0;
+}
 .p20-40 {
     padding: 20px 40px;
 }
 .p40 {
     padding: 40px;
+}
+.pb-56-25 {
+    padding-bottom: 56.25%;
 }
 .padding-block {
     padding: 4% 8% 8% 8%;
@@ -202,6 +226,12 @@ body {
 }
 .mt20 {
     margin-top: 20px;
+}
+.mt30 {
+    margin-top: 30px;
+}
+.mt40 {
+    margin-top: 40px;
 }
 .mt50 {
     margin-top: 50px;
@@ -243,6 +273,9 @@ body {
 .t0 {
     top: 0;
 }
+.l0 {
+    left: 0;
+}
 .z5 {
     z-index: 5;
 }
@@ -266,6 +299,18 @@ body {
 }
 .bg-bo-tieu-chi {
     background-image: url(../images/bg-bo-tieu-chi.jpg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .2;
+    z-index: -1;
+}
+.bg-bsas {
+    background-image: url(../images/bg-bsas.jpg);
     position: absolute;
     top: 0;
     left: 0;
